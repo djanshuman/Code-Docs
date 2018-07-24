@@ -1,2 +1,2 @@
-# MongoDB
-This Repository contains MongoDB related Docs and Sample code. 
+
+This Repository contains  Docs and Sample code. 
