@@ -1,5 +1,5 @@
-*** Python Code to fetch JSON format data through API call and inserting to MongoDB database ***
-*** We have created database= mydatabase and collections=Customers ***
+# Python Code to fetch JSON format data through API call and inserting to MongoDB database ***
+# We have created database= mydatabase and collections=Customers ***
 
 
 import requests
@@ -12,6 +12,8 @@ client = MongoClient('localhost', 27017)
 db=client.mydatabase
 mycol=db.Customers
 x=response.content
+
+#Convert received string to JSON object of dict type
 import json
 json_string=x
 obj=json.loads(json_string)
