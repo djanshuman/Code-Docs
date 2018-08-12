@@ -1,0 +1,4 @@
+1. The pymongo_app.py file contains code to fetch document from mongodb database by interacting through python pymongoClient.
+2. It also contains code in which he post and get values in a html form through bottle web framework. The bottle web framework interacts
+with mongod server running and fetch values and display it in our localhost. 
+The view folder is necessary as it contains bottle web framework templates used in the code. The templates are used in code to store and re-direct values.
