@@ -1,0 +1,14 @@
+python pymongo_app.py
+Bottle v0.12.13 server starting up (using WSGIRefServer())...
+Listening on http://localhost:8082/
+Hit Ctrl-C to quit.
+
+{'_id': ObjectId('5b6ff9084b90f8b5a37c722b'), 'Name': 'Sanju', 'Rating': 9.8, 'Tag': ['Movies', 'Bio', 'Ranbir']}
+{'_id': 100, 'Name': 'Barfi', 'Rating': 9.2}
+/anaconda3/lib/python3.6/site-packages/bottle.py:3468: DeprecationWarning: Flags not at the start of the expression "((?m)[urbURB]?(?:''(" (truncated)
+  patterns = [re.compile(p%pattern_vars) for p in patterns]
+/anaconda3/lib/python3.6/site-packages/bottle.py:3468: DeprecationWarning: Flags not at the start of the expression '\\{\\{((?:((?m)[urbURB' (truncated)
+  patterns = [re.compile(p%pattern_vars) for p in patterns]
+127.0.0.1 - - [13/Aug/2018 00:19:34] "GET / HTTP/1.1" 200 386
+127.0.0.1 - - [13/Aug/2018 00:20:03] "POST /favourite_fruit HTTP/1.1" 303 0
+127.0.0.1 - - [13/Aug/2018 00:20:03] "GET /show_fruit HTTP/1.1" 200 202
