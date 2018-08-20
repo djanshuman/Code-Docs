@@ -10,10 +10,10 @@ The up and running code in pymongo is below:- */
 import pymongo
 import sys
 
-//establish a connection to database
+#establish a connection to database
 
 connection=pymongo.MongoClient('localhost',27017)
-//Get a handle to students database
+#Get a handle to students database
 
 db=connection.students
 mycol=db.grades
