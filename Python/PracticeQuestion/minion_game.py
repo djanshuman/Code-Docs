@@ -50,5 +50,5 @@ def ctest(s):
     cProfile.runctx("minion_game_2(s)", {'minion_game_2': minion_game_2}, {'s': s})
 
 if __name__ == '__main__':
-    s = input()
+    s = 'BANANA'
     ctest(s)
