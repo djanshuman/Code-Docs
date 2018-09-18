@@ -1,3 +1,8 @@
+''' The below code has two functions minion_game_1 and minion_game_2 which does the same operation except the len overhead which
+is modified in two functions to check the number of function calls made through cProfiling . We could see the result that 
+minion_game_1 has better performance then minion_game_2'''
+
+
 import cProfile
 
 def minion_game_1(string):
@@ -23,7 +28,6 @@ def minion_game_1(string):
 def minion_game_2(string):
     # your code goes here
     vowels = 'AEIOU'
-    ln=len(string)
     kevin_score = 0
     stuart_score = 0
     for i in range(len(string)):
