@@ -8,6 +8,7 @@ import cProfile
 def minion_game_1(string):
     # your code goes here
     vowels = 'AEIOU'
+    #length is calculated once and stored in variable
     ln=len(string)
     kevin_score = 0
     stuart_score = 0
@@ -30,6 +31,8 @@ def minion_game_2(string):
     vowels = 'AEIOU'
     kevin_score = 0
     stuart_score = 0
+    
+    #Overhead of calling len() function for each iteration of loop
     for i in range(len(string)):
         if s[i] in vowels:
             kevin_score += (len(string)-i)
